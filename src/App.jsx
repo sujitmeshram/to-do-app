@@ -9,6 +9,7 @@ const App = () => {
   }
   const [inputList, setInputList] = useState("");
 
+  //hooks
   const [Items, setItems] = useState([]);
 
   // taking input from input onChange and giving value to setInputList
@@ -24,6 +25,7 @@ const App = () => {
     setInputList("");
   };
 
+  //for deleting 
 const deleteItem=(id)=>{
   setItems((oldItems)=>{
 
@@ -53,7 +55,7 @@ const deleteItem=(id)=>{
         <button onClick={listOfItems}>+</button>
 
         <ol>
-          {/* <li> {inputList}</li> showing value under the input using map */}
+         
 
           {Items.map((itemval,index) => {
             return <ToDoLists key={index}
