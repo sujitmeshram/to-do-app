@@ -1,7 +1,9 @@
 # yourlist
 
-A Basic to do app made with ReactJS by using react concepts
-You can access it from here
+A Basic to do app made with ReactJS by using react concepts.
+
+
+
 
 
 https://sujitmeshram.github.io/yourlist/
